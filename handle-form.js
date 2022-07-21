@@ -9,7 +9,6 @@ $(document).ready(function () {
       $.ajax({
         url: "/mail.php",
         method: "POST",
-        contentType: "application/json; charset=utf-8",
         data: form.serialize(),
         success: function (result) {
           if (!result.success) {

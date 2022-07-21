@@ -6,33 +6,18 @@
         $question = isset($_POST['question']) ? $_POST['question'] : null;
 
         // $to = 'postmaster@payginetech.uz';
-        $to = '6527375@mail.ru';
+        $to = "6527375@mail.ru";
 
         $subject = 'Заполнена форма на сайте от ' . $email;
-        $message = "<html>
-            <head>
-                <title>Birthday Reminders for August</title>
-            </head>
-            <body>
-                <p>Here are the birthdays upcoming in August!</p>
-                <table>
-                <tr>
-                    <td>Имя: " . $name . "</td>
-                    <td>Телефон: " . $phone . "</td>
-                    <td>Email: " . $email . "</td>
-                    <td>Вопрос: " . $question . "</td>
-                </tr>
-                </table>
-            </body>
-            </html>
-            ";
 
         $headers = "From: " . $name . " <" . $email . "> \r\n";
+        $message = "" . $name . " \r\n" . $email . " \r\n" . $phone . " \r\n" . $question . " \r\n";
         $send_email = mail($to, $subject, $message, $headers);
 
         echo json_encode(array(
             "success" => $send_email,
             "error" => !$send_email ? error_get_last()['message'] : null,
+            "msg" => $message
         ));
     } ?>
 
