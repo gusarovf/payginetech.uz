@@ -9,7 +9,7 @@
   <title>payginetech.uz</title>
   <meta name="description" content="Processing company" />
   <meta property="og:url" content="https://www.payginetech.uz" />
-  <meta property="og:title" content="payengine.net" />
+  <meta property="og:title" content="payginetech.uz" />
   <meta property="og:description" content="Processing company" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="images/tild3730-3632-4533-a238-626538383930__small.svg" />
@@ -92,7 +92,7 @@
             <img src="/assets/header-logo-color.svg" class="t199__logo-image-one" imgfield="img" />
             <img src="/assets/header-logo-white.svg" class="t199__logo-image-two" imgfield="img2" />
             <div class="t199__logo-text-mobile t-title" field="title" style="">
-              Pay Engine
+              Paygine Tech
             </div>
           </a>
           <a class="t199__mmenu-toggler t199__js__menu-toggler" href="#">
@@ -226,7 +226,7 @@
                     font-weight: 600;
                     text-transform: uppercase;
                   " field="subtitle">
-                Pay Engine LTD
+                Paygine Tech LTD
               </div>
               <div class="t165__title t-heading t-heading_md" style="
                     color: #ffffff;
@@ -243,7 +243,7 @@
                     font-weight: 400;
                     font-family: 'Monserrat';
                   " field="text">
-                Pay Engine enables money movement for thousands of financial
+                Paygine Tech enables money movement for thousands of financial
                 institutions and millions of people and businesses
               </div>
             </div>
@@ -293,11 +293,11 @@
                       font-family: 'Monserrat';
                       max-width: 500px;
                     ">
-                  Pay Engine is the leading processing company. We provide
+                  Paygine Tech is the leading processing company. We provide
                   payment card processing services and hosts more than 1000
                   financial institutions. The company runs highly provisioned,
                   fully redundant processing center which guarantees
-                  processing services availability of 99.99%. Pay Engine
+                  processing services availability of 99.99%. Paygine Tech
                   processes more than 1 million transactions per day.
                 </div>
               </div>
@@ -1100,7 +1100,7 @@
           </div>
           <div class="t-col t-col_12">
             <div class="t457__copyright" field="text" style="color: #ffffff; color: #757b8a">
-              © All Rights Reserved. 2022 Pay Engine, LTD<br />helpline@payengine.net
+              © All Rights Reserved. 2022 Paygine Tech, LTD<br />helpline@payginetech.uz
             </div>
           </div>
         </div>
