@@ -17,7 +17,7 @@ $question = "";
     <!-- Phone -->
     <div class="t-input-group t-input-group_ph">
       <div class="t-input-block">
-        <input type="tel" autocomplete="tel" name="phone" class="t-input js-tilda-rule t-input_bbonly" value="<?= $phone ?>" placeholder="Your phone number" data-tilda-req="1" data-tilda-rule="phone" pattern="[0-9]*" style="color: #ffffff; border: 1px solid #d6d6d6" />
+        <input type="tel" name="phone" class="t-input js-tilda-rule t-input_bbonly" value="<?= $phone ?>" placeholder="Your phone number" data-tilda-req="1" data-tilda-rule="phone" style="color: #ffffff; border: 1px solid #d6d6d6" />
         <div class="t-input-error"></div>
       </div>
     </div>

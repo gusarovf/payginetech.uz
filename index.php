@@ -5,9 +5,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--metatextblock-->
-    <title>payengine.net</title>
+    <title>payginetech.uz</title>
     <meta name="description" content="Processing company" />
-    <meta property="og:url" content="https://payengine.net" />
+    <meta property="og:url" content="https://www.payginetech.uz" />
     <meta property="og:title" content="payengine.net" />
     <meta property="og:description" content="Processing company" />
     <meta property="og:type" content="website" />
@@ -15,12 +15,11 @@
       property="og:image"
       content="images/tild3730-3632-4533-a238-626538383930__small.svg"
     />
-    <link rel="canonical" href="https://payengine.net" />
+    <link rel="canonical" href="https://www.payginetech.uz" />
     <!--/metatextblock-->
     <meta property="fb:app_id" content="257953674358265" />
     <meta name="format-detection" content="telephone=no" />
     <meta http-equiv="x-dns-prefetch-control" content="on" />
-    <link rel="dns-prefetch" href="https://ws.tildacdn.com" />
     <link
       rel="shortcut icon"
       href="images/tild6439-3834-4439-a463-346238316338__favicon.ico"
