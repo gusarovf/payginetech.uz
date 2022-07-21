@@ -1,8 +1,8 @@
 <?php
-$name = "Fedor";
-$phone = "89166527375";
-$email = "6527375@mail.ru";
-$question = "My question";
+$name = "";
+$phone = "";
+$email = "";
+$question = "";
 ?>
 
 <form id="contact-form" name="contact-form" role="form" action="" method="POST" class="t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly">

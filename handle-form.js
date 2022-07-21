@@ -4,14 +4,15 @@ $(document).ready(function () {
 
     var form = $(this)
     var isChecked = form.find("#confirm-checkbox").prop("checked")
- 
+
     if (isChecked) {
       $.ajax({
         url: "/mail.php",
         method: "POST",
+        contentType: "application/json; charset=utf-8",
         data: form.serialize(),
         success: function (result) {
-          if (result === "success") {
+          if (!result.success) {
             $("#inputs").hide()
             $("#success-message").show()
             setTimeout(function () {
