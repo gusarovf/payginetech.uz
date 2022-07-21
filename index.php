@@ -51,6 +51,13 @@
     <!-- Assets -->
     <link
       rel="stylesheet"
+      href="/assets/css/styles.css"
+      type="text/css"
+      media="all"
+      onerror="this.loaderr='y';"
+    />
+    <link
+      rel="stylesheet"
       href="css/tilda-grid-3.0.min.css"
       type="text/css"
       media="all"
@@ -195,14 +202,14 @@
           data-menu="yes"
         >
           <div class="t199__holder">
-            <a class="t199__logo" href="" style="">
+            <a class="t199__logo header-logo">
               <img
-                src="images/tild6365-6566-4966-b534-313736373438__color.svg"
+                src="/assets/header-logo-color.svg"
                 class="t199__logo-image-one"
                 imgfield="img"
               />
               <img
-                src="images/tild3663-3966-4633-b139-626432303030__color_white.svg"
+                src="/assets/header-logo-white.svg"
                 class="t199__logo-image-two"
                 imgfield="img2"
               />
@@ -1704,7 +1711,7 @@
             </div>
             <div class="t-col t-col_12">
               <img
-                src="images/tild3433-6663-4330-a163-323435633032__grey.svg"
+                src="/assets/footer-logo-grey.svg"
                 class="t457__logo t457__img t-img"
                 imgfield="img"
                 alt=""
