@@ -5,9 +5,7 @@
         $email = isset($_POST['email']) ? $_POST['email'] : null;
         $question = isset($_POST['question']) ? $_POST['question'] : null;
 
-        // $to = 'postmaster@payginetech.uz';
-        $to = "6527375@mail.ru";
-
+        $to = 'postmaster@payginetech.uz';
         $subject = 'Form filled.';
         $message = "" . $name . " \r\n" . $email . " \r\n" . $phone . " \r\n" . $question . " \r\n";
         $send_email = mail($to, $subject, $message);
