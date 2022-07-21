@@ -1,32 +1,18 @@
+<?php 
+$name="";
+$phone="";
+$email="";
+$question="";
+?>
+
 <form
-  id="form435521223"
-  name="form435521223"
+  id="contact-form"
+  name="contact-form"
   role="form"
   action=""
   method="POST"
-  data-formactiontype="2"
-  data-inputbox=".t-input-group"
   class="t-form js-form-proccess t-form_inputs-total_5 t-form_bbonly"
-  data-success-callback="t698_onSuccess"
 >
-  <input
-    type="hidden"
-    name="formservices[]"
-    value="10b129a52a5a436def0523c1767cc063"
-    class="js-formaction-services"
-  />
-  <input
-    type="hidden"
-    name="formservices[]"
-    value="c94246dc9bbe1908fcadb2768f842277"
-    class="js-formaction-services"
-  />
-  <input
-    type="hidden"
-    name="tildaspec-formname"
-    tabindex="-1"
-    value="Contact"
-  />
   <div
     class="js-successbox t-form__successbox t-text t-text_md"
     style="display: none; color: #ffffff; background-color: #00dbe5"
@@ -34,14 +20,16 @@
     Message was sent successfully
   </div>
   <div class="t-form__inputsbox">
-    <div class="t-input-group t-input-group_nm" data-input-lid="1495630353482">
+ 
+    <div class="t-input-group t-input-group_nm">
       <div class="t-input-block">
+        <!-- Name -->
         <input
           type="text"
           autocomplete="name"
           name="Name"
           class="t-input js-tilda-rule t-input_bbonly"
-          value=""
+          value="<?=$name?>"
           placeholder="Your name"
           data-tilda-req="1"
           data-tilda-rule="name"
@@ -50,14 +38,16 @@
         <div class="t-input-error"></div>
       </div>
     </div>
-    <div class="t-input-group t-input-group_ph" data-input-lid="1649890699323">
+
+    <!-- Phone -->
+    <div class="t-input-group t-input-group_ph">
       <div class="t-input-block">
         <input
           type="tel"
           autocomplete="tel"
           name="Phone"
           class="t-input js-tilda-rule t-input_bbonly"
-          value=""
+          value="<?=$phone ?>"
           placeholder="Your phone number"
           data-tilda-req="1"
           data-tilda-rule="phone"
@@ -67,6 +57,8 @@
         <div class="t-input-error"></div>
       </div>
     </div>
+
+    <!-- Email -->
     <div class="t-input-group t-input-group_em" data-input-lid="1495629963726">
       <div class="t-input-block">
         <input
@@ -74,7 +66,7 @@
           autocomplete="email"
           name="Email"
           class="t-input js-tilda-rule t-input_bbonly"
-          value=""
+          value="<?=$email ?>"
           placeholder="Your email"
           data-tilda-req="1"
           data-tilda-rule="email"
@@ -83,6 +75,9 @@
         <div class="t-input-error"></div>
       </div>
     </div>
+
+
+    <!-- Question -->
     <div class="t-input-group t-input-group_ta" data-input-lid="1649882478996">
       <div class="t-input-block">
         <textarea
@@ -96,6 +91,8 @@
         <div class="t-input-error"></div>
       </div>
     </div>
+
+    <!-- Confirmation -->
     <div class="t-input-group t-input-group_cb" data-input-lid="1649890486567">
       <div class="t-input-block">
         <label

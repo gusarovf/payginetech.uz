@@ -134,12 +134,6 @@
       async
       onerror="this.loaderr='y';"
     ></script>
-    <script
-      src="js/tilda-forms-1.0.min.js"
-      charset="utf-8"
-      async
-      onerror="this.loaderr='y';"
-    ></script>
     <script type="text/javascript">
       window.dataLayer = window.dataLayer || []
     </script>
