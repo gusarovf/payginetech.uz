@@ -1094,7 +1094,9 @@
             </ul>
           </div>
           <div class="t-col t-col_12">
-            <img src="/assets/footer-logo-grey.svg" class="t457__logo t457__img t-img" imgfield="img" alt="" />
+            <div class="footer-logo">
+              <img src="/assets/footer-logo-grey.svg" class="t457__logo t457__img t-img" imgfield="img" alt="" />
+            </div>
           </div>
           <div class="t-col t-col_12">
             <div class="t457__copyright" field="text" style="color: #ffffff; color: #757b8a">
