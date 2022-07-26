@@ -1099,6 +1099,13 @@
             </div>
           </div>
           <div class="t-col t-col_12">
+            <div class="self-about">
+              <p>LLC «Paygine Tech»</p>
+              <p>Republic of Uzbekistan.</p>
+              <p>100015, Republic of Uzbekistan,</p>
+              <p>Nukus street, 29a</p>
+              <p>ITN: 309 501 041</p>
+            </div>
             <div class="t457__copyright" field="text" style="color: #ffffff; color: #757b8a">
               © All Rights Reserved. 2022 Paygine Tech, LTD<br />helpline@payginetech.uz
             </div>
